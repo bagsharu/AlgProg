@@ -52,9 +52,12 @@ int main () {
 
         
     printf("Notas lidas de notas.txt:\n");
-    printf("Nota 3: %.1f", saida[2]);
 
+    for(i = 0; i < TAM; i++){
 
+        printf("%.1f\n", saida[i]);
+        
+    }
 
     return 0;
 }
