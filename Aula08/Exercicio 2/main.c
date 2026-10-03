@@ -4,8 +4,7 @@
 
 int main () {
 
-    int vetor[TAM], i;
-
+    FILE *notas = fopen("notas.txt", "w");
     
 
 
