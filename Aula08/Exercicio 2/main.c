@@ -37,8 +37,6 @@ int main () {
     } fclose(arq_notas);
 
     arq_notas = fopen("notas.txt", "r");
-
-
     if(arq_notas == NULL) {
 
         printf("Arquivo inválido");
@@ -48,11 +46,15 @@ int main () {
     } else {
 
         for(i = 0; i < TAM; i++){
-            fscanf(arq_notas, "f", saida[i]);
+            fscanf(arq_notas, "%f", &saida[i]);
         }
-    } fclose(arq_notas);
+    }fclose(arq_notas);
 
+        
     printf("Notas lidas de notas.txt:\n");
+    printf("Nota 3: %.1f", saida[2]);
+
+
 
     return 0;
 }
