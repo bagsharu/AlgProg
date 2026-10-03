@@ -40,7 +40,7 @@ A matriz soma (Soma A + B:), a soma da diagonal principal (Diagonal de A: X) e a
 Entrada
 	
 
-Saída
+
 ```
     1 2 3
 
@@ -54,6 +54,8 @@ Saída
 
     3 2 1
 ```
+
+Saída
 
 Soma A + B:
 ```
