@@ -15,7 +15,10 @@ int main () {
         scanf("%f", &notas[i]);
     }
 
+    // Abre o arquivo e limpa os resultados anteriores
     arq_notas = fopen("notas.txt", "w");
+
+    // Validação de arquivo nulo
     if (arq_notas == NULL) {
 
         printf("Arquivo inválido");
@@ -31,10 +34,6 @@ int main () {
         }
 
     }
-
-    // for (i = 0; i < TAM; i++ ){
-    //     printf("%d ", notas[i]);
-    // }
 
     return 0;
 }
